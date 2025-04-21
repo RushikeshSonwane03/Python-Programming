@@ -122,6 +122,38 @@ else
 ![Heap_RAM](images/Heap_RAM.png)
 
 
+```text
++----------------------------+
+|        Python App         |
++----------------------------+
+           |
+           v
++----------------------------+
+|    Memory Manager (C API) |
++----------------------------+
+           |
+           v
++-----------------------------+
+|  Stack Memory      |        |
+|--------------------|        |
+| Function Calls     |        |
+| Local Variables    |        |
++--------------------+  Heap  |
+|                      Memory|
+|  Object Storage (List, Dict)|
+|  Class Instances, etc.      |
+|                             |
++-----------------------------+
+           |
+           v
++-----------------------------+
+| Reference Counting Engine   |
+|   +                         |
+| Garbage Collector (Cycle)   |
++-----------------------------+
+```
+
+
 - 64-bit processing (Windows) - 64 bit Data in a Single Clock cycle. (64 Parallel Lines for Processing).
 
 
