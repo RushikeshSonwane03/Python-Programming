@@ -9,6 +9,57 @@
 - Stat with Excel
 
 ------------------------------------------------------------
+
+# 🔰 MASTER LIST OF TOPICS
+### ✅ BASICS
+- How a Number is Stored in System (including +ve and -ve)0
+- Introduction to Python
+- Python Virtual Machine (PVM)
+- Memory Management in Python
+- Automatic Garbage Collection
+- Complexities of Algorithms
+
+### ✅ CORE PYTHON
+- Data Types in Python (Built-in & User-defined)
+- Mapping Types (like dict)
+- Operators
+- Operator Precedence
+- Math Module (methods)
+
+### ✅ FLOW CONTROL
+- Control Statements (if, else, etc.)
+- Loops (for, while)
+- Functions (Normal)
+- Anonymous Functions (lambda)
+    - filter()
+    - map()
+    - reduce()
+- One-Line Codes (control, loops, lambda)
+- Recursion (Types):
+    - Direct
+    - Indirect
+    - Tail
+    - Nested
+
+### ✅ DATA STRUCTURES
+- Storage & Access Strategies
+- Linear Structures:
+- Array (Searching & Sorting)
+- Types of Sorting (Bubble, Insertion, Merge, etc.)
+
+### ✅ OBJECT ORIENTED PROGRAMMING
+- Class & Object
+- Constructor
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
+
+### ✅ LIBRARIES
+- NumPy (Basics, Operations, Applications)
+
+-------------------------------------------------------------------------
+
 ## How a Number is stored in System (-ve Value)
 - -ve no stored in 2's Complement format.
 - We dont have any physical device which can work on more than two states hence we still use computers on Binary scale (1951 - 2025 -> Transistor -> 0/1)
